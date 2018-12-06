@@ -6,7 +6,7 @@ namespace SecureBeforeTwoSingletons
 {
     public sealed class Singleton
     {
-        public static Singleton INSTANCE;
+        private static Singleton INSTANCE;
 
         private Singleton() { }
 
